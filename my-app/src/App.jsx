@@ -34,7 +34,7 @@ function App() {
       <aside className="lg:text-left text-center lg:w-[433px]">
       <h1 className="text-[58px] text-center lg:text-start font-bold text-[#363940]">We Connect 
       Startups</h1>
-      <div className="flex gap-5 py-[10px] ml-[20%] lg:ml-0">
+      <div className="flex gap-5 py-[10px] ml-[15%] lg:ml-0">
         <button className="px-[20px] py-[10px] bg-[#6E38F7] text-white rounded-[5px] cursor-pointer">Download</button>
         <button className="px-[20px] py-[10px] border-2 text-[#6E38F7] rounded-[5px] cursor-pointer">Try for free</button>
       </div>
@@ -143,7 +143,73 @@ function App() {
         <p className="text-[#363940] font-bold">iPad Pro</p>
       </aside>
     </section>
+    <section className="w-[410px] text-center m-auto mt-[100px]"> 
+    <h2 className="text-[#363940] text-[36px] font-bold">Newsletter</h2>
+    <p className="text-[#95A1BB] text-[16px] py-[5px]">Failure will never overtake me if my determination to succeed is strong enough. </p>
+    <div className="mt-[20px]">
+      <input type="text" placeholder="Your email" className="px-[20px] py-[10px] border-2 border-[gray] mx-1 rounded-[10px]"/>
+      <button className="px-[20px] py-[10px] bg-[#6E38F7] text-white rounded-[5px] cursor-pointer">Subscribe</button>
+    </div>
+    </section>
+    <div className="lg:w-[640px] m-auto mt-[100px] text-center">
+      <h2 className="text-[43px] text-[#363940] font-bold">Our best results for the year</h2>
+    </div>
+    <section className="flex flex-col lg:flex-row gap-[70px] mt-[50px] w-[85%] m-auto">
+      <aside className="lg:w-[220px]">
+        <h2 className="text-[43px] text-[#6E38F7] font-bold">40%</h2>
+        <p className="text-[#95A1BB] text-[16px] ">Learn To Love Growth And Change And You Will Be A Success</p>
+      </aside>
+      <aside className="lg:w-[220px]">
+        <h2 className="text-[43px] text-[#363940] font-bold">20%</h2>
+        <p className="text-[#95A1BB] text-[16px] ">A Discount Toner Cartridge Is Better Than Ever And You Will Save 50 Or More</p>
+      </aside>
+      <aside className="lg:w-[220px]">
+        <h2 className="text-[43px] text-[#363940] font-bold">3X</h2>
+        <p className="text-[#95A1BB] text-[16px] ">Converter Ipod Video Taking Portable Video Viewing To A Whole New Level</p>
+      </aside>
+      <aside className="lg:w-[220px]">
+        <h2 className="text-[43px] text-[#363940] font-bold">200+</h2>
+        <p className="text-[#95A1BB] text-[16px] ">The Small Change That Creates Massive Results In Your Life</p>
+      </aside>
+    </section>
   </main>
+  <footer className="mt-[100px]">
+    <section className="w-[90%] m-auto flex flex-col lg:flex-row justify-between">
+      <aside className="lg:w-[400px]">
+        <p className="text-[#363940] text-[18px] font-bold">About the company</p>
+        <p className="text-[#363940] text-[16px]">Learn To Love Growth And Change And You Will Be A Success. Microsoft Patch Management For Home Users. The situation is different, but the conflict feels the same. </p>
+      </aside>
+      <div className="flex lg:gap-[100px] gap-[50px] lg:mt-0 mt-[40px]">
+      <aside className="">
+        <p className="text-[#363940] text-[18px] font-bold">Products</p>
+        <p className="text-[#363940] text-[16px]">Pricing</p>
+        <p className="text-[#363940] text-[16px]">Teams</p>
+        <p className="text-[#363940] text-[16px]">Education</p>
+        <p className="text-[#363940] text-[16px]">Refer a friend</p>
+        <p className="text-[#363940] text-[16px]">Updates</p>
+      </aside>
+      <aside className="">
+        <p className="text-[#363940] text-[18px] font-bold">Get Started</p>
+        <p className="text-[#363940] text-[16px]">Tutorial</p>
+        <p className="text-[#363940] text-[16px]">Resources</p>
+        <p className="text-[#363940] text-[16px]">Guides</p>
+        <p className="text-[#363940] text-[16px]">Examples</p>
+        <p className="text-[#363940] text-[16px]">Docs</p>
+      </aside>
+      <aside className="">
+        <p className="text-[#363940] text-[18px] font-bold">About</p>
+        <p className="text-[#363940] text-[16px]">Stories</p>
+        <p className="text-[#363940] text-[16px]">Community</p>
+        <p className="text-[#363940] text-[16px]">Blog</p>
+        <div className="flex gap-[10px]">
+        <p className="text-[#363940] text-[16px]">Careers</p> 
+        <span className="text-[#6E38F7] font-bold">NEW</span>
+        </div>
+        <p className="text-[#363940] text-[16px]">Brand Assets</p>
+      </aside>
+      </div>
+    </section>
+  </footer>
   </>;
 }
 export default App;
